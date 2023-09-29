@@ -1,38 +1,10 @@
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
+// export default function Button() {
 //   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
+//     <button>
+//       I don't do anything
+//     </button>
 //   );
 // }
-
-// export default App;
-
-
-
-export default function Button() {
-  return (
-    <button>
-      I don't do anything
-    </button>
-  );
-}
 
 // export default function Button() {
 //   function handleClick() {
@@ -177,6 +149,41 @@ export default function Button() {
 //   );
 // }
 
+
+
+// export default function Button({ 
+//  onClick, children 
+// }) {
+//   return (
+//     <button onClick={e => {
+//       e.stopPropagation();
+//       onClick();
+//     }}>
+//       children
+//     </button>
+//   );
+// }
+
+
+
+// export default function Toolbar() {
+//   return (
+//     <div className="Toolbar" onClick={() => {
+//       alert('You clicked on the toolbar!');
+//     }}>
+//       <Button onClick={() => alert('Playing!')}>
+//         Play Movie
+//       </Button>
+//       <Button onClick={() => alert('Uploading!')}>
+//         Upload Image
+//       </Button>
+//     </div>
+//   );
+// }
+
+
+
+
 // export default function Signup() {
 //   return (
 //     <form onSubmit={() => alert('Submitting!')}>
@@ -189,7 +196,7 @@ export default function Button() {
 // export default function Signup() {
 //   return (
 //     <form onSubmit={e => {
-//       e.Propagation();
+//       e.PreventDefault();
 //       alert('Submitting!');
 //     }}>
 //       <input />
@@ -198,21 +205,23 @@ export default function Button() {
 //   );
 // }
 
-// export default function LightSwitch() {
-//   function handleClick() {
-//     let bodyStyle = document.body.style;
-//     if (bodyStyle.backgroundColor === 'black') {
-//       bodyStyle.backgroundColor = 'white';
-//     } else {
-//       bodyStyle.backgroundColor = 'black';
-//     }
-//   }
-
-//   return (
-//     <button onClick={handleClick()}>
-//       Toggle the lights
-//     </button>
-//   );
-// }
 
 
+
+//CHALLENGES
+export default function LightSwitch() {
+  function handleClick() {
+    let bodyStyle = document.body.style;
+    if (bodyStyle.backgroundColor === 'black') {
+      bodyStyle.backgroundColor = 'white';
+    } else {
+      bodyStyle.backgroundColor = 'black';
+    }
+  }
+
+  return (
+    <button onClick={handleClick}>
+      Toggle the lights
+    </button>
+  );
+}
