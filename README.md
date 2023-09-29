@@ -42,9 +42,6 @@ Bagaimana Peristiwa Menyebar dan Cara Menghentikannya:
 Peristiwa dalam React.js menyebar dari komponen anak ke komponen induk, mengikuti hirarki komponen. kita dapat menghentikan penyebaran peristiwa dengan menggunakan metode stopPropagation() untuk mencegah peristiwa mencapai komponen lain. Ini berguna untuk menghindari tindakan yang tidak diinginkan.
 
 
-
-
-
 CHALENGGE
 1. mengubah background menjadi hitam saat click toogle
 ![Screenshot (476)](https://github.com/odansyyy/praktikum/assets/145110140/1d8d7f87-aeff-47a3-ade9-f8be8f38611f)
