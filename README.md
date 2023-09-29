@@ -32,7 +32,14 @@
 ![Screenshot (485)](https://github.com/odansyyy/praktikum/assets/145110140/f3643d44-48c7-4aaa-948c-2da4d1959812)
 
 Kesimpulan : 
+Ada berbagai Cara Menulis Event Handler:
+kita dapat menulis event handler dalam berbagai cara, seperti menggunakan fungsi arrow, metode, atau bahkan mengikatnya dalam konstruktor.
 
+Cara Melewatkan Logika Penanganan Event dari Komponen Induk:
+kita dapat melewatkan logika penanganan event dari komponen induk ke komponen anak melalui prop. Ini memungkinkan kita mengelola peristiwa di berbagai tingkat komponen.
+
+Bagaimana Peristiwa Menyebar dan Cara Menghentikannya:
+Peristiwa dalam React.js menyebar dari komponen anak ke komponen induk, mengikuti hirarki komponen. kita dapat menghentikan penyebaran peristiwa dengan menggunakan metode stopPropagation() untuk mencegah peristiwa mencapai komponen lain. Ini berguna untuk menghindari tindakan yang tidak diinginkan.
 
 
 
