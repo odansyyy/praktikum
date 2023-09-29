@@ -1,23 +1,37 @@
-Adding event handlers 
+1.Adding event handlers 
+![Screenshot (479)](https://github.com/odansyyy/praktikum/assets/145110140/8d9c3800-2337-49e6-83c1-66bf95571f16)
 
-
-1.Button
-Adding event handlers 
-![Screenshot (475)](https://github.com/odansyyy/praktikum/assets/145110140/adc84eca-5869-44a6-a043-81f5b80783d7)
-
-
-2. click me
 ![Screenshot (470)](https://github.com/odansyyy/praktikum/assets/145110140/323f1f2b-dfd6-4f58-ae09-6bb1b21e5aa2)
 
 
-3. Play movie  Upload image
+2. Reading props in event handlers 
+![Screenshot (480)](https://github.com/odansyyy/praktikum/assets/145110140/3e4ea746-1465-444e-bea6-ec78ab18be76)
 
 
+3. Passing event handlers as props
+![Screenshot (481)](https://github.com/odansyyy/praktikum/assets/145110140/f19e2460-d598-4718-9497-fef567749faf)
 
-4. Play "Kiki's Delivery Service"
 
-5. 
+4. Naming event handler props
+![Screenshot (482)](https://github.com/odansyyy/praktikum/assets/145110140/5dce436c-2372-4650-9f62-f31f3797774a)
 
+
+5. Event propagation
+![Screenshot (483)](https://github.com/odansyyy/praktikum/assets/145110140/2a56b9f5-06c7-4bc1-81c6-015743538f8c)
+
+
+6. Stopping propagation
+![Screenshot (484)](https://github.com/odansyyy/praktikum/assets/145110140/eeaf7700-5aed-4668-95e8-d4dac3eb105e)
+
+
+7. Passing handlers as alternative to propagation
+![Screenshot (486)](https://github.com/odansyyy/praktikum/assets/145110140/2170f833-2b6a-40a7-ac2b-c84b2341b8fb)
+
+
+8. Preventing default behavior
+![Screenshot (485)](https://github.com/odansyyy/praktikum/assets/145110140/f3643d44-48c7-4aaa-948c-2da4d1959812)
+
+Kesimpulan : 
 
 
 
